@@ -350,4 +350,12 @@
         </plugins>
     </reporting>
 
+    <distributionManagement>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>test1</name>
+            <url>https://jfrog05.jfrog.io/artifactory/demo1-libs-snapshot</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 </project>
