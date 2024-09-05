@@ -27,13 +27,19 @@
         <tag>HEAD</tag>
     </scm>
 
-    <distributionManagement>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>test1</name>
-            <url>https://jfrog05.jfrog.io/artifactory/demo1-libs-snapshot</url>
-        </snapshotRepository>
-    </distributionManagement>
+<distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>JFrog Snapshot Repository</name>
+        <url>https://jfrog05.jfrog.io/artifactory/demo1-libs-snapshot</url>
+    </snapshotRepository>
+    <repository>
+        <id>releases</id>
+        <name>JFrog Release Repository</name>
+        <url>https://jfrog05.jfrog.io/artifactory/demo1-libs-release</url>
+    </repository>
+</distributionManagement>
+
 
     <dependencies>
         <dependency>
