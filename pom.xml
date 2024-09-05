@@ -28,15 +28,10 @@
     </scm>
 
     <distributionManagement>
-        <repository>
-            <id>releases</id>
-            <name>Nexus Release Repository</name>
-            <url>http://localhost:8081/repository/maven-releases/</url>
-        </repository>
         <snapshotRepository>
             <id>snapshots</id>
-            <name>Nexus Snapshot Repository</name>
-            <url>http://localhost:8081/repository/maven-snapshots/</url>
+            <name>test1</name>
+            <url>https://jfrog05.jfrog.io/artifactory/demo1-libs-snapshot</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -350,12 +345,6 @@
         </plugins>
     </reporting>
 
-    <distributionManagement>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>test1</name>
-            <url>https://jfrog05.jfrog.io/artifactory/demo1-libs-snapshot</url>
-        </snapshotRepository>
-    </distributionManagement>
+
 
 </project>
